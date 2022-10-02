@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -76,17 +77,26 @@ nav ul li a:hover{
 /* section1 */
 
 .nav-name{
-    background-image: url("../images/cowboybebop.jpg");
+   
     padding-bottom: 8vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#canv{
+    position: fixed;
+    z-index: -1;
+}
+
+.name-webd{
+    padding-left: 5vw;
 }
 
 .section1{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content:  space-between;
   
     padding-bottom: 13vh;
 }
@@ -111,7 +121,7 @@ nav ul li a:hover{
 /* keyboard */
 
 .keyboard-title{
-    p: vw;
+    overflow: hidden;
 }
 
 #dark {
@@ -133,7 +143,7 @@ nav ul li a:hover{
   label {
     user-select: none;
     cursor: pointer;
-    font-size: 2vw;
+    font-size: 10vw;
     position: fixed;
     /* top: 1000vh;
     right: 4px; */
@@ -154,7 +164,7 @@ nav ul li a:hover{
     --btn-height: calc(var(--size) * .025);
     display: flex;
     gap: 2em;
-    font-size: calc(var(--size) * .0175);
+    font-size: calc(var(--size) * .021);
     background-color: hsl(240deg, 20%, calc(var(--l)));
     padding: 1em;
     position: relative;
@@ -162,6 +172,7 @@ nav ul li a:hover{
     transform: perspective(800px) rotateX(40deg) rotateZ(40deg);
     animation: color-shift 30s infinite linear;
     transition: 100ms ease-out;
+    
   }
   .keyboard:before, .keyboard:after {
     content: "";
@@ -294,7 +305,7 @@ nav ul li a:hover{
   @keyframes color-shift {
     0% {
       --color: hsl(0deg, 100%, 50%);
-      transform: perspective(1800px) rotateX(30deg) rotateZ(40deg);
+      transform: perspective(1800px) rotateX(30deg) rotateZ(60deg);
     }
     12.5% {
       --color: hsl(45deg, 100%, 50%);
@@ -320,7 +331,7 @@ nav ul li a:hover{
     }
     100% {
       --color: hsl(360deg, 100%, 50%);
-      transform: perspective(1800px) rotateX(30deg) rotateZ(40deg);
+      transform: perspective(1800px) rotateX(30deg) rotateZ(60deg);
     }
   }
   @property --color {
