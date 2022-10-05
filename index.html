@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="nav-name" id="nav-name">
+        <canvas id="canv"></canvas>
+
+        <nav>
+            <h2 class="myself">
+                Tr<span class="self">ring</span>
+            </h2>
+            <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About Me</a></li>
+                
+            </ul>
+
+
+        </nav>
+
+        <h1 class="title">
+            My Portfolio
+        </h1>
+        <section class="section1" id="section1">
+            <div class="name-webd">
+                <div class="name">
+                    Hi my name is
+                    <br>
+
+                    <span>Sahil Makeshwar</span>
+
+                    <hr>
+                    <br>
+                </div>
+                <div class="webd">
+                    I am a
+
+                    <span>Web Developer</span>
+                    <br>
+                </div>
+            </div>
+            <div class="keyboard-div">
+                <input id="dark" type="checkbox">
+                <label class="dark" for="dark">🌚</label>
+                <!-- <label class="light" for="dark">🌞</label> -->
+                <div class="wrapper">
+                    <div class="keyboard">
+                        <div class="left">
+                            <div class="top">
+                                <div class="glow small">
+                                    <p>ESC</p>
+                                </div>
+                                <div class="fn-keys">
+                                    <div class="group glow small">
+                                        <p>F1</p>
+                                        <p>F2</p>
+                                        <p>F3</p>
+                                        <p>F4</p>
+                                    </div>
+                                    <div class="group glow small">
+                                        <p>F5</p>
+                                        <p>F6</p>
+                                        <p>F7</p>
+                                        <p>F8</p>
+                                    </div>
+                                    <div class="group glow small">
+                                        <p>F9</p>
+                                        <p>F10</p>
+                                        <p>F11</p>
+                                        <p>F12</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main glow">
+                                <div class="row small">
+                                    <p>` ~</p>
+                                    <p>1 !</p>
+                                    <p>2 @</p>
+                                    <p>3 #</p>
+                                    <p>4 $</p>
+                                    <p>5 %</p>
+                                    <p>6 ^</p>
+                                    <p>7 &</p>
+                                    <p>8 *</p>
+                                    <p>9 (</p>
+                                    <p>0 )</p>
+                                    <p>- _</p>
+                                    <p>= +</p>
+                                    <p style="flex-grow:20">⟵</p>
+                                </div>
+                                <div class="row">
+                                    <p style="flex-grow:20">⇆</p>
+                                    <p>Q</p>
+                                    <p>W</p>
+                                    <p>E</p>
+                                    <p>R</p>
+                                    <p>T</p>
+                                    <p>Y</p>
+                                    <p>U</p>
+                                    <p>I</p>
+                                    <p>O</p>
+                                    <p>P</p>
+                                    <p>[ {</p>
+                                    <p>] }</p>
+                                    <p style="flex-grow:20">\ |</p>
+                                </div>
+                                <div class="row">
+                                    <p style="flex-grow:20">🠿</p>
+                                    <p>A</p>
+                                    <p>S</p>
+                                    <p>D</p>
+                                    <p>F</p>
+                                    <p>G</p>
+                                    <p>H</p>
+                                    <p>J</p>
+                                    <p>K</p>
+                                    <p>L</p>
+                                    <p>; :</p>
+                                    <p>' "</p>
+                                    <p style="flex-grow:30">⮐</p>
+                                </div>
+                                <div class="row">
+                                    <p style="flex-grow:20">🠽</p>
+                                    <p>Z</p>
+                                    <p>X</p>
+                                    <p>C</p>
+                                    <p>V</p>
+                                    <p>B</p>
+                                    <p>N</p>
+                                    <p>M</p>
+                                    <p>, &lt;</p>
+                                    <p>. &gt;</p>
+                                    <p>/ ?</p>
+                                    <p style="flex-grow:30">🠽</p>
+                                </div>
+                                <div class="row small">
+                                    <p>Ctrl</p>
+                                    <p>⊞</p>
+                                    <p>Alt</p>
+                                    <p style="flex-grow:25"></p>
+                                    <p>Alt</p>
+                                    <p>⊞</p>
+                                    <p>Fn</p>
+                                    <p>Ctrl</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="top small">
+                                <div class="row glow">
+                                    <p class="small">PrtSc</p>
+                                    <p class="small">ScrLk</p>
+                                    <p class="small">Pause</p>
+                                </div>
+                                <div class="group glow">
+                                    <div class="row">
+                                        <p class="small">Ins</p>
+                                        <p class="small">Home</p>
+                                        <p class="small">PgUp</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="small">Del</p>
+                                        <p class="small">End</p>
+                                        <p class="small">PgDn</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrows">
+                                <div class="group">
+                                    <div class="row" style="justify-content:center">
+                                        <div class="glow" style="padding-bottom:.5em">
+                                            <p>🡩</p>
+                                        </div>
+                                    </div>
+                                    <div class="row glow">
+                                        <p>🡨</p>
+                                        <p>🡫</p>
+                                        <p>🡪</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="section2" id="section2">
+        <div class="swiper-container">
+            <div class="bg"></div>
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+
+                        <div class="abt-title">
+                            About Me
+                        </div>
+                        <div class="abt-main">
+                            <div class="abt-text">
+                               I am a 2rd year student at COEP studying Computer Science. 
+                               <br>
+                               I am passionate about software development and am always looking for new opportunities to learn and grow.
+                               <br>
+                               I like to work espcially when it comes to programming and I am always looking for new challenges.
+                               <br>
+                               I like to watch anime and read manga in my free time.
+                               
+                            </div>
+                            <div class="hacker">
+                                <img src="./images/cbb_h2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="wtitle">
+                            My works
+                        </div>
+                        <div class="mywork-img">
+
+                            <div class="work-text">
+                                I am still learning so I don't have much to show but there are some projects that I have worked on.
+                                <br>
+                                I am in many tech clubs like ascii, floss, cofsug
+                                <br>
+                                I am also a co-ordinator of the tech fest MINDSPARK and my Portfolio is Web Development
+                                <br>
+                                There are a few projects I would like to show you
+                                
+                           
+                                <br>
+                                <br>
+                                <div style="font-size: 2vw;">
+                                    Click here to continue 
+                                </div>
+                                <br>
+                                <br>
+                                <a href="#teleport">
+                                    <button onClick="work()" class="corner-button">Know More</button>
+                                </a>
+                            </div>
+
+                            <div class="image">
+                                <img src="./images/work.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section3" id="section3">
+        <div id="teleport"></div>
+        <div class="myprojects" id="myprojects">
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            
+            <div class="ft-tittex">
+                <div class="footer-title">
+                    Contact Me
+                </div>
+                <div class="footer-text">
+                    <ul>
+                        <li>Phone: 1234567890</li>
+                        <li>Email:
+                    </ul>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sahil-makeshwar-11480522a/" target="_blank"><button class="linkden"><i class="fa-brands fa-linkedin-in fa-2xl"></i></button></a>
+                <a href="https://www.instagram.com/four_eyes2122/" target="_blank"><button><i class="fa-brands fa-instagram fa-2xl"></i></button></a>
+                <a href="https://github.com/SahilS1G" target="_blank"> <button><i class="fa-brands fa-github fa-2xl"></i></button></a>
+                <a href="https://www.hackerrank.com/sahimake1773" target="_blank"><button><i class="fa-brands fa-hackerrank fa-2xl"></i></button></a>
+              
+                
+               
+                
+            </div>
+           </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+
+</html>
